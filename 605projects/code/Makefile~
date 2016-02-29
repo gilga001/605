@@ -1,0 +1,17 @@
+# Change the following values to suit your system.
+
+CFLAGS=-I/usr/include -I/usr/X11R6/include  -I/usr/X11R6/lib -L/usr/lib -O2
+OPENGL_LIB=-lX11 -lGL -lGLU -lglut -lm -lXmu -lXi
+CCC=g++
+
+#CPP = phongShading.c solidCube.c
+
+run: phongShading.o 
+	$(CCC) $(CFLAGS) phongShading.c $(OPENGL_LIB) -o run
+
+phongShading.o: phongShading.c 
+	$(CCC) $(CFLAGS) -c phongShading.c
+
+clean:
+	rm -f run *.o
+	rm -f *~

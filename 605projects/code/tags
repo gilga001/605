@@ -1,0 +1,83 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CCC	Makefile	/^CCC=gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-L\/usr\/lib64 -O2$/;"	m
+EYEDX	depthOfField.c	6;"	d	file:
+JITTER	antiAliasing.c	12;"	d	file:
+OPENGL_LIB	Makefile	/^OPENGL_LIB=-lX11 -lGL -lGLU -lglut -lm -lXmu$/;"	m
+VPASSES	antiAliasing.c	11;"	d	file:
+cross	antiAliasing.c	/^struct point cross(struct point u, struct point v)$/;"	f	signature:(struct point u, struct point v)
+do_lights	antiAliasing.c	/^void do_lights()$/;"	f
+do_lights	depthOfField.c	/^void do_lights()$/;"	f
+do_lights	solidCube.c	/^void do_lights()$/;"	f
+do_lights	vertexBufferObject.c	/^void do_lights()$/;"	f
+do_material	antiAliasing.c	/^void do_material()$/;"	f
+do_material	depthOfField.c	/^void do_material()$/;"	f
+do_material	solidCube.c	/^void do_material()$/;"	f
+do_material	vertexBufferObject.c	/^void do_material()$/;"	f
+do_material2	depthOfField.c	/^void do_material2()$/;"	f
+do_viewvolume	solidCube.c	/^void do_viewvolume()$/;"	f
+draw_stuff	antiAliasing.c	/^void draw_stuff()$/;"	f
+draw_stuff	basiccube.c	/^void draw_stuff()$/;"	f
+draw_stuff	depthOfField.c	/^void draw_stuff()$/;"	f
+draw_stuff	solidCube.c	/^void draw_stuff()$/;"	f
+draw_stuff	vertexBufferObject.c	/^void draw_stuff()$/;"	f
+eye	phongShading.c	/^float eye[] = {3.0,3.0,3.0};$/;"	v
+genrand	antiAliasing.c	/^double genrand()$/;"	f
+getout	antiAliasing.c	/^void getout(unsigned char key, int x, int y)$/;"	f	signature:(unsigned char key, int x, int y)
+getout	depthOfField.c	/^void getout(unsigned char key, int x, int y)$/;"	f	signature:(unsigned char key, int x, int y)
+getout	phongShading.c	/^void getout(unsigned char key, int x, int y)$/;"	f	signature:(unsigned char key, int x, int y)
+getout	vertexBufferObject.c	/^void getout(unsigned char key, int x, int y)$/;"	f	signature:(unsigned char key, int x, int y)
+go	antiAliasing.c	/^void go()$/;"	f
+go	depthOfField.c	/^void go()$/;"	f
+initOGL	vertexBufferObject.c	/^void initOGL(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+jitter_view	antiAliasing.c	/^void jitter_view()$/;"	f
+light0_position	phongShading.c	/^float light0_position[] = {3.0,3.0,3.0,1.0};$/;"	v
+load_texture	phongShading.c	/^void load_texture(char* filename){$/;"	f	signature:(char* filename)
+main	antiAliasing.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	basiccube.c	/^int main(int argc, char** argv)$/;"	f	signature:(int argc, char** argv)
+main	depthOfField.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	phongShading.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	solidCube.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	vertexBufferObject.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+mybuf	vertexBufferObject.c	/^int mybuf = 1;$/;"	v
+point	antiAliasing.c	/^struct point {$/;"	s	file:
+point	basiccube.c	/^struct point {$/;"	s	file:
+point	depthOfField.c	/^struct point {$/;"	s	file:
+point	solidCube.c	/^struct point {$/;"	s	file:
+point	vertexBufferObject.c	/^struct point {$/;"	s	file:
+read_shader_program	phongShading.c	/^char *read_shader_program(char *filename) $/;"	f	signature:(char *filename)
+renderScene	phongShading.c	/^void renderScene(void)$/;"	f	signature:(void)
+set_light	phongShading.c	/^void set_light()$/;"	f
+set_material	phongShading.c	/^void set_material()$/;"	f
+set_shaders	phongShading.c	/^unsigned int set_shaders()$/;"	f
+set_uniform	phongShading.c	/^void set_uniform(int p){$/;"	f	signature:(int p)
+setup_the_viewvol	vertexBufferObject.c	/^void setup_the_viewvol()$/;"	f
+setup_the_viewvolume	basiccube.c	/^void setup_the_viewvolume()$/;"	f
+unit_length	antiAliasing.c	/^struct point unit_length(struct point u)$/;"	f	signature:(struct point u)
+up	phongShading.c	/^float up[] = {0.0,1.0,0.0};$/;"	v
+update	vertexBufferObject.c	/^void update()$/;"	f
+vertices	vertexBufferObject.c	/^GLfloat vertices[] = {$/;"	v
+view_volume	phongShading.c	/^void view_volume()$/;"	f
+viewpt	phongShading.c	/^float viewpt[] = {0.0,0.0,0.0};$/;"	v
+viewvolume_shape	antiAliasing.c	/^void viewvolume_shape()$/;"	f
+vv	depthOfField.c	/^void vv(float xt)$/;"	f	signature:(float xt)
+x	antiAliasing.c	/^	float x, y, z;$/;"	m	struct:point	file:
+x	basiccube.c	/^	float x, y, z;$/;"	m	struct:point	file:
+x	depthOfField.c	/^	float x, y, z;$/;"	m	struct:point	file:
+x	solidCube.c	/^	float x, y, z;$/;"	m	struct:point	file:
+x	vertexBufferObject.c	/^	float x;$/;"	m	struct:point	file:
+y	antiAliasing.c	/^	float x, y, z;$/;"	m	struct:point	file:
+y	basiccube.c	/^	float x, y, z;$/;"	m	struct:point	file:
+y	depthOfField.c	/^	float x, y, z;$/;"	m	struct:point	file:
+y	solidCube.c	/^	float x, y, z;$/;"	m	struct:point	file:
+y	vertexBufferObject.c	/^	float y;$/;"	m	struct:point	file:
+z	antiAliasing.c	/^	float x, y, z;$/;"	m	struct:point	file:
+z	basiccube.c	/^	float x, y, z;$/;"	m	struct:point	file:
+z	depthOfField.c	/^	float x, y, z;$/;"	m	struct:point	file:
+z	solidCube.c	/^	float x, y, z;$/;"	m	struct:point	file:
+z	vertexBufferObject.c	/^	float z;$/;"	m	struct:point	file:
